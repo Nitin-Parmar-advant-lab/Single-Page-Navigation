@@ -1,0 +1,60 @@
+/* @import "tailwindcss";
+
+
+
+@layer components {
+  .nav-pill {
+    @apply px-4 py-2 rounded-full text-gray-300
+  hover:text-white
+    text-sm font-medium
+    transition
+    ;
+  }
+  
+  .nav-pill-active {
+    @apply bg-white text-gray-900
+    hover:text-black;
+  }
+}
+
+@layer components {
+  .main-text {
+    @apply text-white font-light text-xl
+    mx-50 font-sans text-justify
+  }
+}
+
+@layer components {
+  .nav-item {
+    @apply transition-transform duration-300;
+  }
+  .nav-item:hover {
+    @apply scale-100 font-bold;
+  }
+}
+
+
+h2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+} */
+
+@import "tailwindcss"; 
+
+@layer components { 
+  .nav-pill { 
+    @apply px-4 py-2 rounded-full text-white hover:bg-gray-500 text-sm font-medium ; 
+  } 
+  .nav-pill-active { 
+    @apply bg-white text-gray-900
+  } 
+} 
+
+
+@layer components { 
+  .main-text 
+  { @apply text-white font-light text-xl mx-50 scroll-mt-25 font-sans text-justify } }
+  
+h2 { 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 30px; 
+}
